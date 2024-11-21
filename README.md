@@ -1,2 +1,2 @@
 # AOC
-Advent of Code
+code for the Advent of Code puzlzle https://adventofcode.com
