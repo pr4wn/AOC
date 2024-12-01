@@ -13,9 +13,9 @@ open( my $fh, '<', $fn ) or die "Cannot open file $fn $!";
 while ( my $s = readline($fh) ) {
 
     chomp($s);
-    my @aa = ( split '\s+', $s );
-    push @col1, $aa[0];
-    push @col2, $aa[1];
+    my @a = ( split '\s+', $s );
+    push @col1, $a[0];
+    push @col2, $a[1];
 
 }
 
