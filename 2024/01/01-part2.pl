@@ -8,7 +8,7 @@ my @col1;
 my @col2;
 my $sumsim = 0;
 
-open( my $fh, '<', $fn );
+open( my $fh, '<', $fn ) or die "Cannot open file $fn $!";
 
 while ( my $s = readline($fh) ) {
 
